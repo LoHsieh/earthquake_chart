@@ -7,9 +7,7 @@ Created on Tue May  3 17:15:05 2022
 
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
 import json
-from datetime import datetime
 
 def get_eqdatas(txtSDate):
     form_data={
